@@ -7,13 +7,17 @@ This project is a responsive frontend built using React and CSS. It is designed 
 ## Features
 
 -Responsive design: The project is designed to adapt to different screen sizes and devices, ensuring a seamless user experience on desktops, tablets, and mobile devices.
+
 -React Components: The frontend is built using React, allowing for easy component-based development and code reusability.
+
 -CSS Styling: CSS is used to style the user interface, providing a visually appealing and consistent design.
+
 -Easily Customizable: You can customize and extend the project to meet your specific requirements.
 
 ## Technologies used :
 
 -React
+
 -CSS
 
 # Source :

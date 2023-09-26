@@ -1,0 +1,124 @@
+.featuredProperties {
+  display: flex;
+  gap: 1em;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.featuredPropertyItem {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.featuredPropertyItem img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.propertyDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.propertyName {
+  font-weight: bold;
+}
+
+.propertyLocation {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(91, 91, 93);
+}
+
+.propertyPrice {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rating .propertyRating {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: none;
+  background-color: #003b95;
+  color: white;
+  margin-right: 10px;
+  padding: 3px 5px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1050px) {
+  .featuredProperties {
+    width: 90%;
+  }
+
+  .propertyName {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .propertyLocation,
+  .propertyPrice {
+    font-size: 13px;
+  }
+
+  .propertyReview {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .featuredProperties {
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .featuredPropertyItem {
+    width: auto;
+  }
+
+  .propertyName {
+    font-size: 14px;
+  }
+
+  .propertyLocation,
+  .propertyPrice {
+    font-size: 12px;
+  }
+
+  .rating span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .featuredPropertyItem {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+  }
+
+  .featuredProperties {
+    grid: 1fr/ 1fr;
+  }
+
+  .propertyDesc {
+    margin: 1.5rem;
+  }
+  .propertyName {
+    font-size: 15px;
+  }
+
+  .propertyLocation,
+  .propertyPrice {
+    font-size: 13px;
+  }
+
+  .propertyRating {
+    border-radius: 0 0 0 10px;
+  }
+}

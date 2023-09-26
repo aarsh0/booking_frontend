@@ -1,0 +1,61 @@
+.pList {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 0.9em;
+}
+
+.pListItem {
+  cursor: pointer;
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pListItem img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.pListTitles h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pListTitles h3 {
+  font-size: 13px;
+  color: gray;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1050px) {
+  .pList {
+    max-width: 90vw;
+  }
+
+  .pListTitles h2 {
+    font-size: 15px;
+  }
+
+  .pListTitles h3 {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 754px) {
+  .pList {
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pList {
+    grid: repeat(2, 1fr) / repeat(2, 1fr);
+  }
+
+  .pListTitles {
+    font-size: 14px;
+  }
+}

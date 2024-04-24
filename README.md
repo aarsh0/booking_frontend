@@ -25,6 +25,3 @@ CSS
 -This project is tutorial of lama dev in which he made this project and I just made it for practice and added responsiveness in it as extra
 
 - Link : [Tutorial Link](https://youtu.be/RkWpJ4XUHuw?si=g25cZuzUtBjGhLro).
-
-## Project live demo : 
-- Link : [Live Site](https://booking-frontend-seven.vercel.app)
